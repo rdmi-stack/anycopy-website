@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'daisyui/dist/full.css';
+
+html,
+body,
+body > div:first-child,
+div#__next,
+div#__next > main {
+  font-family: 'Roboto', sans-serif; /* Updated to Roboto */
+  font-size: 16px; /* Set the font size to 16px */
+
+  height: 100%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.icon-size {
+  width: 20px; /* or any size you prefer */
+  height: 20px;
+}
+
+.nav-icon {
+  width: 24px;  
+  height: 24px; 
+}
+
+
+
+
+
+.logo-text {
+  margin-left: 30px; /* Adjust the margin-left value to reduce the spacing */
+}
+
+
+
+
+/* Loader Styles */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height */
+}
+
+.loader {
+  border: 5px solid #f3f3f3; /* Light grey background */
+  border-top: 5px solid #2c04f6; /* Blue color */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.slide-in {
+  transform: translateY(0);
+  transition: transform 0.3s ease-out;
+}
+
+.slide-out {
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in;
+}
+
+.toast-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 1.5rem; /* equivalent to 'm-6' in Tailwind */
+  background-color: green; /* equivalent to 'bg-green-500' in Tailwind */
+  color: white; /* equivalent to 'text-white' in Tailwind */
+  padding: 1rem;
+  border-radius: 0.375rem; /* equivalent to 'rounded-md' in Tailwind */
+  z-index: 50;
+}
+
+/* Sidebar styles */
+.sidebar {
+  background-color: white; /* Change to white background */
+  color: #333;
+}
+
+.menu-item-label {
+  color: #3B3B71; /* Or any other color you prefer */
+}
+
+.menu-item:hover {
+  background-color: #e0e0e0; /* Light grey background on hover */
+  color: #1a73e8; /* Darker text color on hover */
+  /* Add other hover styles as needed */
+}
+
+.menu-item:hover .icon-blue {
+  color: #1a73e8; /* Change icon color on hover, if desired */
+}
+
+
+
+/* Sidebar menu item styles */
+.menu-item {
+  color: rgba(14, 1, 1, 0.8); /* White color with 80% opacity */
+}
+
+.menu-item:hover {
+  background-color: #EBEEFF; /* Lighter hover background for contrast */
+  color: #0606fc; /* Color similar to the sidebar for text */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for background and text color */
+}
+
+/* Icon styles */
+.icon-blue {
+  color: rgb(206, 206, 211); /* Icon color */
+}
+/* Icon styles */
+.icon-blue:hover {
+  color: #f9f9fb; /* Icon color */
+}
+
+/* Logo styles */
+.logo-circle {
+  background-color: #0112f9; /* Logo circle background */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.menu-item.active {
+  background-color: #EBEEFF !important; /* Add !important to override any other styles */
+  color: #0112f9 !important; /* Add !important to override any other styles */
+}
+
+
+
+.logo-text {
+  color: #2020f5; /* Logo text color */
+  margin-left: 10px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Add this to your global stylesheet or within the component using TailwindCSS */
+.stat {
+  margin: 1rem; /* Adjust the margin as needed */
+}
