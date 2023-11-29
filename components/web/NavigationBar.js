@@ -88,7 +88,7 @@ const Modal = () => {
              
               <a
                 className="font-medium text-gray-800 hover:text-gray-600 py-3 md:py-6 dark:text-gray-200 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                href="/Login"
+                href="https://app.elixcent.com/login"
               >
                 Login
                
