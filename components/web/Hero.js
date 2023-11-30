@@ -56,11 +56,11 @@ Book A Demo          </a>
           <div className="py-5">
           <div className="flex space-x-1">
     {/* Replace SVGs with image tags */}
-    <img src="/images/g2.png" alt="Review Image" className="h-4 w-4" />
+    <img src="/images/g2.png" alt="Review Image" className="h-4 w-4" style={{ width: '51px', height: '51px' }} />
     {/* Add more image tags if needed */}
   </div>
             <p className="mt-3 text-sm text-gray-800 dark:text-gray-200">
-              <span className="font-bold">4.6</span> /5 - from 12k reviews
+              <span className="font-bold">4.6</span> /5
             </p>
             <div className="mt-5">
               {/* Star */}
