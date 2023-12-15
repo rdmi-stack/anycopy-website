@@ -19,11 +19,10 @@ const Modal = () => {
         <div className="flex justify-center">
           <a
             className="group inline-block bg-white/[.05] hover:bg-white/[.1] border border-white/[.05] p-1 ps-4 rounded-full shadow-md"
-            href="../figma.html"
+            href="https://app.elixcent.com/SignUp"
           >
             <p className="me-2 inline-block text-white text-sm">
-              Preline UI Figma is live.
-            </p>
+Start For Free Today            </p>
             <span className="group-hover:bg-white/[.1] py-1.5 px-2.5 inline-flex justify-center items-center gap-x-2 rounded-full bg-white/[.075] font-semibold text-white text-sm">
               <svg
                 className="flex-shrink-0 w-4 h-4"
@@ -46,24 +45,21 @@ const Modal = () => {
         {/* Title */}
         <div className="max-w-3xl text-center mx-auto">
           <h1 className="block font-medium text-gray-200 text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-            Now it's easier than ever to build products
-          </h1>
+Create Copy At Scale With Generative AI          </h1>
         </div>
         {/* End Title */}
         <div className="max-w-3xl text-center mx-auto">
           <p className="text-lg text-gray-400">
-            Preline is a large open-source project, crafted with Tailwind CSS
-            framework by Hmlstream.
+          Experience a 10x boost in content creation efficiency and quality. Our Generative AI platform revolutionizes how you produce content, delivering engaging, precise copy at an unprecedented scale.
           </p>
         </div>
         {/* Buttons */}
         <div className="text-center">
           <a
             className="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-blue-600 to-violet-600 shadow-lg shadow-transparent hover:shadow-blue-700/50 border border-transparent text-white text-sm font-medium rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white py-3 px-6 dark:focus:ring-offset-gray-800"
-            href="#"
+            href="https://app.elixcent.com/SignUp"
           >
-            Get started
-            <svg
+Start For Free Today            <svg
               className="flex-shrink-0 w-4 h-4"
               xmlns="http://www.w3.org/2000/svg"
               width={24}
