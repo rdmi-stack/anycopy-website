@@ -2,6 +2,8 @@
 import Navbar from '../components/web/NavigationBar'; // NavigationBar component
 import Footer from '../components/web/Footer';       // Footer component
 import Hero from '../components/web/Hero';
+import Video from '../components/web/video';
+
 import Faqs from '../components/web/Faqs';
 import FeatureSection1 from '../components/web/FeatureSection1';
 
@@ -28,7 +30,9 @@ export default function Home() {
 
       <Navbar />
       <Hero />
+      <Video />
       <Clients />
+    
       <FeatureSection1 />
    
       <FeatureSection3 />
