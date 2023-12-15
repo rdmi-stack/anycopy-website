@@ -14,6 +14,16 @@ div#__next > main {
   height: 100%;
 }
 
+.transparent-navbar {
+  background-color: rgba(255, 255, 255, 0); /* Fully transparent */
+}
+
+
+
+.full-height {
+  height: 100vh;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }

@@ -19,7 +19,7 @@ export default function Home() {
     <>
     <Head>
         <title>AnyCopy.ai: 10x Your Content Impact with Generative AI </title>
-        <meta name="description" content="Experience a 10x boost in Copy creation efficiency and quality. Our Generative AI platform revolutionizes how you produce content, delivering engaging, precise copy at an unprecedented scale." />
+        <meta name="description" content="Experience a 10x boost in content creation efficiency and quality. Our Generative AI platform revolutionizes how you produce content, delivering engaging, precise copy at an unprecedented scale." />
       </Head>
     <div>
     
