@@ -18,8 +18,8 @@ export default function Home() {
   return (
     <>
     <Head>
-        <title>AI-Driven Email Personalization Platform - Boost Engagement & Sales</title>
-        <meta name="description" content="Experience the future of email marketing with our AI-powered personalization platform. Elevate your outreach with tailored content, increase engagement rates, and drive sales effectively. Perfect for businesses seeking to harness the power of AI for smarter email strategies." />
+        <title>AnyCopy.ai: 10x Your Content Impact with Generative AI </title>
+        <meta name="description" content="Experience a 10x boost in Copy creation efficiency and quality. Our Generative AI platform revolutionizes how you produce content, delivering engaging, precise copy at an unprecedented scale." />
       </Head>
     <div>
     

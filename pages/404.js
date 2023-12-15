@@ -14,10 +14,10 @@ const Modal = () => {
     <nav className="px-4 sm:px-6 lg:px-8" aria-label="Global">
       <a
         className="flex-none text-xl font-semibold sm:text-3xl dark:text-white"
-        href="#"
+        href="/"
         aria-label="Brand"
       >
-        Elixcent
+        AnyCopy.ai
       </a>
     </nav>
   </header>
@@ -72,7 +72,7 @@ Go To Blog      </a>
   </div>
   <footer className="mt-auto text-center py-5">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <p className="text-sm text-gray-500">© Elixcent | All Rights Reserved. 2023-24.</p>
+      <p className="text-sm text-gray-500">© AnyCopy.ai | All Rights Reserved. 2023-24.</p>
     </div>
   </footer>
 </div>
