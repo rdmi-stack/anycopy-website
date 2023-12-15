@@ -21,7 +21,7 @@ const Modal = () => {
        
   <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
     <img src="/images/logo.png" alt="Elixcent Logo" className="logo-image" style={{ width: '100px' }} />
-    <h1 className="logo-text" style={{ marginLeft: '0px' }}>Elixcent</h1>
+    <h1 className="logo-text" style={{ marginLeft: '0px' }}>AnyCopy.ai</h1>
   </div>
 
           <div className="md:hidden">

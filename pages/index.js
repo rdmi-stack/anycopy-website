@@ -4,7 +4,7 @@ import Footer from '../components/web/Footer';       // Footer component
 import Hero from '../components/web/Hero';
 import Faqs from '../components/web/Faqs';
 import FeatureSection1 from '../components/web/FeatureSection1';
-import FeatureSection2 from '../components/web/FeatureSection2';
+
 import Help from '../components/web/Help';
 import Clients from '../components/web/Clients';
 import FeatureSection3 from '../components/web/FeatureSection3';
@@ -31,7 +31,6 @@ export default function Home() {
       <Clients />
       <FeatureSection1 />
    
-      <FeatureSection2 />
       <FeatureSection3 />
 
 
