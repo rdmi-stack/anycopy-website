@@ -17,11 +17,11 @@ const Modal = () => {
       <a
         className="flex-none text-xl font-semibold dark:text-white dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
         href="/"
-        aria-label="Brand"
+        aria-label="AnyCopy.ai"
       >
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
     <img src="/images/logo.png" alt="Elixcent Logo" className="logo-image" style={{ width: '100px' }} />
-    <h1 className="logo-text" style={{ marginLeft: '0px' }}>Elixcent</h1>
+    <h1 className="logo-text" style={{ marginLeft: '0px' }}>AnyCopy.ai</h1>
   </div>
       </a>
       
@@ -390,9 +390,9 @@ Elixcent vs Lyne          </a>
           <a
             className="flex-none text-xl font-semibold dark:text-white"
             href="#"
-            aria-label="Brand"
+            aria-label="AnyCopy"
           >
-            Brand
+            AnyCopy.ai
           </a>
           <p className="mt-1 text-xs sm:text-sm text-gray-600 dark:text-gray-400">
             © 2022 Preline.
