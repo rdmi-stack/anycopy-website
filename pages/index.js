@@ -30,8 +30,9 @@ export default function Home() {
 
       <Navbar />
       <Hero />
-      <Video />
       <Clients />
+      <Video />
+     
     
       <FeatureSection1 />
    

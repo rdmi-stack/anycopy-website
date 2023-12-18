@@ -16,8 +16,7 @@ const Modal = () => {
         <div className="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
           <div className="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2">
             <h2 className="text-2xl text-gray-800 font-bold sm:text-3xl dark:text-gray-200">
-              Fully customizable rules to match your unique needs
-            </h2>
+            Transform Your Marketing Efforts with Intelligent Copy Solutions            </h2>
             {/* Tab Navs */}
             <nav
               className="grid gap-4 mt-5 md:mt-10"
@@ -53,11 +52,9 @@ const Modal = () => {
                   </svg>
                   <span className="grow ms-6">
                     <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
-                      Advanced tools
-                    </span>
+                    Convert More with Captivating Landing Pages                   </span>
                     <span className="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
-                      Use Preline thoroughly thought and automated libraries to
-                      manage your businesses.
+                    Craft compelling landing page content that captures attention and drives conversions.
                     </span>
                   </span>
                 </span>
@@ -88,11 +85,10 @@ const Modal = () => {
                   </svg>
                   <span className="grow ms-6">
                     <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
-                      Smart dashboards
+                    Elevate Your Brand with Stellar Website Content
                     </span>
                     <span className="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
-                      Quickly Preline sample components, copy-paste codes, and
-                      start right off.
+                    Create engaging and informative website content that reflects your brand's voice and ethos.
                     </span>
                   </span>
                 </span>
@@ -126,11 +122,10 @@ const Modal = () => {
                   </svg>
                   <span className="grow ms-6">
                     <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
-                      Powerful features
+                    Impactful Ad Campaigns
                     </span>
                     <span className="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
-                      Reduce time and effort on building modern look design with
-                      Preline only.
+                    Develop creative and persuasive ad copies that resonate with your target audience and amplify your marketing efforts.
                     </span>
                   </span>
                 </span>

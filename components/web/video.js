@@ -16,11 +16,11 @@ const Video = () => {
     <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10">
       <div className="max-w-2xl text-center mx-auto">
         <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl dark:text-white">
-          Designed for you to get more{" "}
-          <span className="text-blue-600">simple</span>
+        Scale Your Impact with High-Quality {" "}
+          <span className="text-blue-600">Copy</span>
         </h1>
         <p className="mt-3 text-lg text-gray-800 dark:text-gray-400">
-          Build your business here. Take it anywhere.
+        AnyCopy.ai: Where quality meets scalability in marketing and sales copywriting. Elevate your content effortlessly.
         </p>
       </div>
       <div className="mt-10 relative max-w-5xl mx-auto">
