@@ -395,7 +395,7 @@ Elixcent vs Lyne          </a>
             AnyCopy.ai
           </a>
           <p className="mt-1 text-xs sm:text-sm text-gray-600 dark:text-gray-400">
-            © 2022 Preline.
+            © 2023-24 AnyCopy.ai.
           </p>
         </div>
         {/* Social Brands */}

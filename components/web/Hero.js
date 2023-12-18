@@ -36,7 +36,7 @@ Beta Version Launched          </p>
           {/* End Title */}
           <div className="mt-5 max-w-3xl">
             <p className="text-lg text-gray-600 dark:text-gray-400">
-            Experience a 10x boost in content creation efficiency and quality. Our Generative AI platform revolutionizes how you produce content, delivering engaging, precise copy at an unprecedented scale
+            Scale your marketing and sales efforts with AnyCopy.ai: Master landing pages, website, email, ads, and content marketing with ease.
             </p>
           </div>
           {/* Buttons */}
