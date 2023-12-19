@@ -2,6 +2,9 @@
 import Navbar from '../components/web/NavigationBar'; // NavigationBar component
 import Footer from '../components/web/Footer';       // Footer component
 import Hero from '../components/web/Hero';
+import Testimonials from '../components/web/testimonials';       // Footer component
+import BlogList from '../components/web/home-blog-list';       // Footer component
+
 import Video from '../components/web/video';
 
 import Faqs from '../components/web/Faqs';
@@ -37,7 +40,8 @@ export default function Home() {
       <FeatureSection1 />
    
       <FeatureSection3 />
-
+      <Testimonials />
+<BlogList />
 
 <Faqs />
 <Help />
