@@ -19,7 +19,7 @@ const Modal = () => {
         href="#"
         aria-label="Brand"
       >
-        AnyCopy
+        ANYCOPY
       </a>
       <div className="sm:hidden">
         <button
