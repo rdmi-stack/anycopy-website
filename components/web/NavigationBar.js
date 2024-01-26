@@ -8,107 +8,104 @@ const Modal = () => {
   };
 
   return (
-    <>
-     
-  {/* ========== HEADER ========== */}
-  <header className="flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full absolute top-0 left-0 right-0 transparent-navbar text-sm py-3 md:py-0">
-    <nav
-      className="max-w-[85rem] w-full mx-auto px-4 md:px-6 lg:px-8"
-      aria-label="Global"
-    >
-      <div className="relative md:flex md:items-center md:justify-between">
-        <div className="flex items-center justify-between">
-       
-  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-    <img src="/images/logo.png" alt="Elixcent Logo" className="logo-image" style={{ width: '100px' }} />
-    <h1 className="logo-text" style={{ marginLeft: '0px' }}>AnyCopy.ai</h1>
-  </div>
-
-          <div className="md:hidden">
-            <button
-              type="button"
-              className="hs-collapse-toggle flex justify-center items-center w-9 h-9 text-sm font-semibold rounded-lg border border-gray-200 text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-              data-hs-collapse="#navbar-collapse-with-animation"
-              aria-controls="navbar-collapse-with-animation"
-              aria-label="Toggle navigation"
-            >
-              <svg
-                className="hs-collapse-open:hidden flex-shrink-0 w-4 h-4"
-                xmlns="http://www.w3.org/2000/svg"
-                width={24}
-                height={24}
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={2}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <line x1={3} x2={21} y1={6} y2={6} />
-                <line x1={3} x2={21} y1={12} y2={12} />
-                <line x1={3} x2={21} y1={18} y2={18} />
-              </svg>
-              <svg
-                className="hs-collapse-open:block hidden flex-shrink-0 w-4 h-4"
-                xmlns="http://www.w3.org/2000/svg"
-                width={24}
-                height={24}
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={2}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="M18 6 6 18" />
-                <path d="m6 6 12 12" />
-              </svg>
-            </button>
-          </div>
-        </div>
-        <div
-          id="navbar-collapse-with-animation"
-          className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block"
+    <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white border-b border-gray-200 text-sm py-3 sm:py-0 dark:bg-gray-800 dark:border-gray-700">
+  <nav
+    className="relative max-w-7xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
+    aria-label="Global"
+  >
+    <div className="flex items-center justify-between">
+      <a
+        className="flex-none text-xl font-semibold dark:text-white"
+        href="#"
+        aria-label="Brand"
+      >
+        AnyCopy
+      </a>
+      <div className="sm:hidden">
+        <button
+          type="button"
+          className="hs-collapse-toggle w-9 h-9 flex justify-center items-center text-sm font-semibold rounded-lg border border-gray-200 text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+          data-hs-collapse="#navbar-collapse-with-animation"
+          aria-controls="navbar-collapse-with-animation"
+          aria-label="Toggle navigation"
         >
-          <div className="overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-slate-700 dark:[&::-webkit-scrollbar-thumb]:bg-slate-500">
-            <div className="flex flex-col gap-x-0 mt-5 divide-y divide-dashed divide-gray-200 md:flex-row md:items-center md:justify-end md:gap-x-7 md:mt-0 md:ps-7 md:divide-y-0 md:divide-solid dark:divide-gray-700">
-              <a
-                className="font-medium text-blue-600 py-3 md:py-6 dark:text-blue-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                href="/Features"
-                aria-current="page"
-              >
-                Features
-              </a>
-              <a
-                className="font-medium text-gray-800 hover:text-gray-600 py-3 md:py-6 dark:text-gray-200 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                href="/Pricing"
-              >
-                Pricing
-              </a>
-             
-              <a
-                className="font-medium text-gray-800 hover:text-gray-600 py-3 md:py-6 dark:text-gray-200 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                href="https://app.elixcent.com/login"
-              >
-                Login
-               
-              </a>
-              <div className="pt-3 md:pt-0">
-                <a
-                  className="py-2.5 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                  href="/SignUp"
-                >
-Start Your Free Trial                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+          <svg
+            className="hs-collapse-open:hidden w-4 h-4"
+            width={16}
+            height={16}
+            fill="currentColor"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fillRule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+            />
+          </svg>
+          <svg
+            className="hs-collapse-open:block flex-shrink-0 hidden w-4 h-4"
+            width={16}
+            height={16}
+            fill="currentColor"
+            viewBox="0 0 16 16"
+          >
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+          </svg>
+        </button>
       </div>
-    </nav>
-  </header>
-  {/* ========== END HEADER ========== */}
+    </div>
+    <div
+      id="navbar-collapse-with-animation"
+      className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block"
+    >
+      <div className="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:ps-7">
+        <a
+          className="font-medium text-blue-600 sm:py-6 dark:text-blue-500"
+          href="#"
+          aria-current="page"
+        >
+          Features
+        </a>
+        <a
+          className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500"
+          href="#"
+        >
+          Solutions
+        </a>
+        <a
+          className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500"
+          href="#"
+        >
+          Resources
+        </a>
+        <a
+          className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500"
+          href="#"
+        >
+          Resources
+        </a>
+       
+        <a
+          className="flex items-center gap-x-2 font-medium text-gray-500 hover:text-blue-600 sm:border-s sm:border-gray-300 sm:my-6 sm:ps-6 dark:border-gray-700 dark:text-gray-400 dark:hover:text-blue-500"
+          href="#"
+        >
+          <svg
+            className="flex-shrink-0 w-4 h-4"
+            xmlns="http://www.w3.org/2000/svg"
+            width={16}
+            height={16}
+            fill="currentColor"
+            viewBox="0 0 16 16"
+          >
+            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+          </svg>
+          Log in
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
 
-    </>
+
   );
 };
 
