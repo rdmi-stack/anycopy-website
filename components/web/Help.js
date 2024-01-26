@@ -111,7 +111,7 @@ Chat With Us               </h3>
                 <p className="text-sm text-gray-500">
                   Reach us at{" "}
                   <span className="text-blue-600 font-medium dark:text-blue-500">
-hello@elixcent.com                  </span>
+hello@anycopy.co                  </span>
                 </p>
               </div>
             </div>
