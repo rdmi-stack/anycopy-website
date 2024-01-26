@@ -17,7 +17,7 @@ const Modal = () => {
           <a
             className="flex-none text-xl font-semibold text-white dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
             href="#"
-            aria-label="ANYCOPY.AI"
+            aria-label="ANYCOPY"
           >
             ANYCOPY
           </a>
@@ -127,7 +127,7 @@ Get New Products, News and Other Updates            </p>
       <div className="mt-5 sm:mt-12 grid gap-y-2 sm:gap-y-0 sm:flex sm:justify-between sm:items-center">
         <div className="flex justify-between items-center">
           <p className="text-sm text-gray-400">
-            © 2023 AnyCopy.Ai All rights reserved.
+            © 2023 AnyCopy All rights reserved.
           </p>
         </div>
         {/* End Col */}
