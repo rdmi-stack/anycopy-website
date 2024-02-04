@@ -29,25 +29,25 @@ const Modal = () => {
             <p>
               <a
                 className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                href="/Pricing"
+                href="/features"
+              >
+                Features
+              </a>
+            </p>
+            <p>
+              <a
+                className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                href="#"
+              >
+                Solutions
+              </a>
+            </p>
+            <p>
+              <a
+                className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                href="#"
               >
                 Pricing
-              </a>
-            </p>
-            <p>
-              <a
-                className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                href="#"
-              >
-                Changelog
-              </a>
-            </p>
-            <p>
-              <a
-                className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                href="#"
-              >
-                Docs
               </a>
             </p>
           </div>

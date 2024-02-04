@@ -60,33 +60,34 @@ const Modal = () => {
       <div className="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:ps-7">
         <a
           className="font-medium text-blue-600 sm:py-6 dark:text-blue-500"
-          href="#"
+          href="/features"
           aria-current="page"
         >
           Features
         </a>
         <a
           className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500"
-          href="#"
+          href="/solutions"
         >
           Solutions
         </a>
         <a
           className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500"
-          href="#"
+          href="/pricing"
         >
-          Resources
+          Pricing
         </a>
         <a
           className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500"
-          href="#"
+          href="/resources"
         >
           Resources
         </a>
        
+       
         <a
           className="flex items-center gap-x-2 font-medium text-gray-500 hover:text-blue-600 sm:border-s sm:border-gray-300 sm:my-6 sm:ps-6 dark:border-gray-700 dark:text-gray-400 dark:hover:text-blue-500"
-          href="#"
+          href="https://app.anycopy.co/Login"
         >
           <svg
             className="flex-shrink-0 w-4 h-4"
