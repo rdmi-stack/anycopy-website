@@ -26,7 +26,7 @@ const Modal = () => {
     <div className="mt-8 flex justify-center">
       <a
         className="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-blue-600 to-violet-600 hover:from-violet-600 hover:to-blue-600 border border-transparent text-white text-lg font-medium rounded-lg focus:outline-none focus:ring-1 focus:ring-gray-600 py-4 px-8  dark:focus:ring-offset-gray-800"
-        href="#"
+        href="/waitlist"
       >
         Join the Waitlist
         <svg
