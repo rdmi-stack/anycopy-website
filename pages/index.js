@@ -11,7 +11,6 @@ import Faqs from '../components/web/Faqs';
 import FeatureSection1 from '../components/web/FeatureSection1';
 
 import Help from '../components/web/Help';
-import Clients from '../components/web/Clients';
 import FeatureSection3 from '../components/web/FeatureSection3';
 import Link from 'next/link';
 import Head from 'next/head';
@@ -33,8 +32,6 @@ export default function Home() {
 
       <Navbar />
       <Hero />
-      <Clients />
-      <Video />
      
     
       <FeatureSection1 />
