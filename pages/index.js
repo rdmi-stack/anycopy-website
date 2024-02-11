@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <>
     <Head>
-        <title>AnyCopy: AI Copy Assistant Impact with Generative AI </title>
+        <title>AnyCopy: AI Copy Assistant Powered by Generative AI </title>
         <meta name="description" content="Experience a 10x boost in content creation efficiency and quality. Our Generative AI platform revolutionizes how you produce content, delivering engaging, precise copy at an unprecedented scale." />
       </Head>
     <div>
