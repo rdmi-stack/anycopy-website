@@ -17,8 +17,7 @@ const Stats = () => {
         {/* Stats */}
         <div className="lg:pe-6 xl:pe-12">
           <p className="text-6xl font-bold leading-10 text-blue-600">
-            92%
-            <span className="ms-1 inline-flex items-center gap-x-1 bg-gray-200 font-medium text-gray-800 text-xs leading-4 rounded-full py-0.5 px-2 dark:bg-gray-800 dark:text-gray-300">
+1000+            <span className="ms-1 inline-flex items-center gap-x-1 bg-gray-200 font-medium text-gray-800 text-xs leading-4 rounded-full py-0.5 px-2 dark:bg-gray-800 dark:text-gray-300">
               <svg
                 className="flex-shrink-0 w-4 h-4"
                 xmlns="http://www.w3.org/2000/svg"
@@ -33,8 +32,7 @@ const Stats = () => {
             </span>
           </p>
           <p className="mt-2 sm:mt-3 text-gray-500">
-            of U.S. adults have bought from businesses using Space
-          </p>
+Users Registered for Waitlist          </p>
         </div>
         {/* End Stats */}
       </div>
@@ -43,14 +41,14 @@ const Stats = () => {
         <div className="grid gap-6 grid-cols-2 md:grid-cols-4 lg:grid-cols-3 sm:gap-8">
           {/* Stats */}
           <div>
-            <p className="text-3xl font-semibold text-blue-600">99.95%</p>
-            <p className="mt-1 text-gray-500">in fulfilling orders</p>
+            <p className="text-3xl font-semibold text-blue-600">100+</p>
+            <p className="mt-1 text-gray-500">Templates</p>
           </div>
           {/* End Stats */}
           {/* Stats */}
           <div>
-            <p className="text-3xl font-semibold text-blue-600">2,000+</p>
-            <p className="mt-1 text-gray-500">partner with Preline</p>
+            <p className="text-3xl font-semibold text-blue-600">99.99%</p>
+            <p className="mt-1 text-gray-500">Happy </p>
           </div>
           {/* End Stats */}
           {/* Stats */}

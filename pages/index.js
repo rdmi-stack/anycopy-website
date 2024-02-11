@@ -6,7 +6,6 @@ import Testimonials from '../components/web/testimonials';       // Footer compo
 import BlogList from '../components/web/home-blog-list';       // Footer component
 import Pricing from '../components/pricing';
 import HomeVideo from '../components/homevideo';
-import Stats from '../components/stats';
 import Video from '../components/web/video';
 import Feature4 from '../components/feature4';
 import Faqs from '../components/web/Faqs';
@@ -36,7 +35,6 @@ export default function Home() {
       <Hero />
             <FeatureSection3 />
 
-      <Stats />
     <Feature4 />
     
       <FeatureSection1 />
