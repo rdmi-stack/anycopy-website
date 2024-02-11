@@ -30,10 +30,9 @@ Latest Post        </h2>
           </div>
           <div className="my-6">
             <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-300 dark:group-hover:text-white">
-              Announcing a free plan for small teams
-            </h3>
+            The Ultimate Checklist: Preparing Your Sales Team for AI-Generated Pitching           </h3>
             <p className="mt-5 text-gray-600 dark:text-gray-400">
-              At Wake, our mission has always been focused on bringing openness.
+            detailed checklist for sales teams integrating AI-generated copy into their pitches.
             </p>
           </div>
           <div className="mt-auto flex items-center gap-x-3">
@@ -44,7 +43,7 @@ Latest Post        </h2>
             />
             <div>
               <h5 className="text-sm text-gray-800 dark:text-gray-200">
-                By Lauren Waller
+              By Anycopy Team
               </h5>
             </div>
           </div>
@@ -64,11 +63,9 @@ Latest Post        </h2>
           </div>
           <div className="my-6">
             <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-300 dark:group-hover:text-white">
-              How Google Assistant now helps you record stories for kids
-            </h3>
+            Optimizing Marketing Strategies: A Data-Driven Analysis of AI-Generated Copy Performance            </h3>
             <p className="mt-5 text-gray-600 dark:text-gray-400">
-              Google is constantly updating its consumer AI, Google Assistant,
-              with new features.
+            Conduct a data-driven analysis of the performance of AI-generated copy in marketing campaigns. 
             </p>
           </div>
           <div className="mt-auto flex items-center gap-x-3">
@@ -79,7 +76,7 @@ Latest Post        </h2>
             />
             <div>
               <h5 className="text-sm text-gray-800 dark:text-gray-200">
-                By Aaron Larsson
+              By Anycopy Team
               </h5>
             </div>
           </div>
@@ -99,11 +96,9 @@ Latest Post        </h2>
           </div>
           <div className="my-6">
             <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-300 dark:group-hover:text-white">
-              Front accounts - let's work together
-            </h3>
+            Top 5 Ways AI-Generated Copy Boosts Email Marketing            </h3>
             <p className="mt-5 text-gray-600 dark:text-gray-400">
-              Are you an accountant? Are you a company formation advisor?
-            </p>
+            Explore how AI-generated copy can enhance email marketing campaigns. Discuss personalization, A/B testing, and improved engagement.            </p>
           </div>
           <div className="mt-auto flex items-center gap-x-3">
             <img
@@ -113,7 +108,7 @@ Latest Post        </h2>
             />
             <div>
               <h5 className="text-sm text-gray-800 dark:text-gray-200">
-                By Lauren Waller
+                By Anycopy Team
               </h5>
             </div>
           </div>

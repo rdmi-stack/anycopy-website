@@ -19,7 +19,7 @@ const Modal = () => {
     </div>
     <div className="mt-5 max-w-3xl text-center mx-auto">
       <p className="text-lg text-gray-600 dark:text-gray-400">
-        Anycopy.ai leverages AI to supercharge your marketing and sales
+        AnyCopy leverages AI to supercharge your marketing and sales
         copywriting. Create compelling text for ads, emails, websites, and more.{" "}
       </p>
     </div>

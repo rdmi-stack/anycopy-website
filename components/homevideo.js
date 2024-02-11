@@ -18,10 +18,10 @@ const HomeVideo = () => {
           <div className="px-5 py-4 inline-block bg-white rounded-lg md:p-7 dark:bg-gray-800">
             <div className="hidden md:block">
               <h3 className="text-lg font-bold text-gray-800 sm:text-2xl dark:text-gray-200">
-                How does Preline work?
+                How does Anycopy work?
               </h3>
               <p className="mt-2 text-gray-800 dark:text-gray-200">
-                Learn more about Preline.
+                Learn more about AnyCopy.
               </p>
             </div>
             <div className="md:mt-16">
@@ -43,7 +43,7 @@ const HomeVideo = () => {
                 >
                   <polygon points="5 3 19 12 5 21 5 3" />
                 </svg>
-                Watch our story
+                Watch Video
               </a>
             </div>
           </div>
