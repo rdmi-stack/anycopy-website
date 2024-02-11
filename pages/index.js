@@ -4,9 +4,9 @@ import Footer from '../components/web/Footer';       // Footer component
 import Hero from '../components/web/Hero';
 import Testimonials from '../components/web/testimonials';       // Footer component
 import BlogList from '../components/web/home-blog-list';       // Footer component
-import Pricing from '../components/web/Pricing';
+import Pricing from '../components/pricing';
 import Video from '../components/web/video';
-import Feature4 from '../components/web/Feature4';
+import Feature4 from '../components/feature4';
 import Faqs from '../components/web/Faqs';
 import FeatureSection1 from '../components/web/FeatureSection1';
 import Notification from '../components/web/notification';
