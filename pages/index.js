@@ -4,12 +4,12 @@ import Footer from '../components/web/Footer';       // Footer component
 import Hero from '../components/web/Hero';
 import Testimonials from '../components/web/testimonials';       // Footer component
 import BlogList from '../components/web/home-blog-list';       // Footer component
-
+import Pricing from '../components/web/Pricing';
 import Video from '../components/web/video';
-
+import Feature4 from '../components/web/Feature4';
 import Faqs from '../components/web/Faqs';
 import FeatureSection1 from '../components/web/FeatureSection1';
-
+import Notification from '../components/web/notification';
 import Help from '../components/web/Help';
 import FeatureSection3 from '../components/web/FeatureSection3';
 import Link from 'next/link';
@@ -29,14 +29,15 @@ export default function Home() {
     
     
  
-
+<Notification />
       <Navbar />
       <Hero />
-     
+    <Feature4 />
     
       <FeatureSection1 />
    
       <FeatureSection3 />
+      <Pricing />
       <Testimonials />
 <BlogList />
 
