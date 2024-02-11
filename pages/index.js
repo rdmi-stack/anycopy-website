@@ -5,6 +5,8 @@ import Hero from '../components/web/Hero';
 import Testimonials from '../components/web/testimonials';       // Footer component
 import BlogList from '../components/web/home-blog-list';       // Footer component
 import Pricing from '../components/pricing';
+import HomeVideo from '../components/homevideo';
+import Stats from '../components/stats';
 import Video from '../components/web/video';
 import Feature4 from '../components/feature4';
 import Faqs from '../components/web/Faqs';
@@ -32,12 +34,15 @@ export default function Home() {
 <Notification />
       <Navbar />
       <Hero />
+            <FeatureSection3 />
+
+      <Stats />
     <Feature4 />
     
       <FeatureSection1 />
    
-      <FeatureSection3 />
       <Pricing />
+      <HomeVideo />
       <Testimonials />
 <BlogList />
 
