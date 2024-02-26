@@ -33,11 +33,11 @@ export default function Home() {
 <Notification />
       <Navbar />
       <Hero />
-      <HomeVideo />
+      <FeatureSection1 />
+
 
     <Feature4 />
     
-      <FeatureSection1 />
    
       <Pricing />
       <Testimonials />
