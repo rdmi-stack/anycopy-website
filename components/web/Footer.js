@@ -34,14 +34,7 @@ const Modal = () => {
                 Features
               </a>
             </p>
-            <p>
-              <a
-                className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                href="#"
-              >
-                Solutions
-              </a>
-            </p>
+           
             <p>
               <a
                 className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
@@ -67,6 +60,14 @@ const Modal = () => {
             <p>
               <a
                 className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                href="/contact"
+              >
+                Contact Us
+              </a>
+            </p>
+            <p>
+              <a
+                className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                 href="/blog"
               >
                 Blog
@@ -83,14 +84,7 @@ const Modal = () => {
                 We're hiring
               </span>
             </p>
-            <p>
-              <a
-                className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                href="#"
-              >
-                Customers
-              </a>
-            </p>
+           
           </div>
         </div>
         {/* End Col */}
@@ -127,7 +121,7 @@ Get New Products, News and Other Updates            </p>
       <div className="mt-5 sm:mt-12 grid gap-y-2 sm:gap-y-0 sm:flex sm:justify-between sm:items-center">
         <div className="flex justify-between items-center">
           <p className="text-sm text-gray-400">
-            © 2023 AnyCopy All rights reserved.
+            © 2024 AnyCopy AI All rights reserved.
           </p>
         </div>
         {/* End Col */}
