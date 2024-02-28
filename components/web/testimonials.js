@@ -47,7 +47,7 @@ const Testimonials = () => {
           <div className="font-semibold text-gray-800 dark:text-gray-200">
             Eliana Smith
           </div>
-          <div className="text-sm text-gray-500">Marketing Manager | Google</div>
+          <div className="text-sm text-gray-500">Marketing Manager | AirBnb</div>
         </footer>
       </blockquote>
       {/* End Blockquote */}

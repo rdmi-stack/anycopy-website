@@ -134,23 +134,7 @@ const Pricing = () => {
             All the basics for starting a new business
           </p>
           <ul className="mt-7 space-y-2.5 text-sm">
-            <li className="flex space-x-2">
-              <svg
-                className="flex-shrink-0 mt-0.5 h-4 w-4 text-blue-600 dark:text-blue-500"
-                xmlns="http://www.w3.org/2000/svg"
-                width={24}
-                height={24}
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={2}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <polyline points="20 6 9 17 4 12" />
-              </svg>
-              <span className="text-gray-800 dark:text-gray-400">2 users</span>
-            </li>
+            
             <li className="flex space-x-2">
               <svg
                 className="flex-shrink-0 mt-0.5 h-4 w-4 text-blue-600 dark:text-blue-500"
@@ -167,7 +151,7 @@ const Pricing = () => {
                 <polyline points="20 6 9 17 4 12" />
               </svg>
               <span className="text-gray-800 dark:text-gray-400">
-                Plan features
+                Unlimited Credits
               </span>
             </li>
             <li className="flex space-x-2">
@@ -186,7 +170,7 @@ const Pricing = () => {
                 <polyline points="20 6 9 17 4 12" />
               </svg>
               <span className="text-gray-800 dark:text-gray-400">
-                Product support
+                1 User
               </span>
             </li>
           </ul>
@@ -211,23 +195,7 @@ const Pricing = () => {
             Everything you need for a growing business
           </p>
           <ul className="mt-7 space-y-2.5 text-sm">
-            <li className="flex space-x-2">
-              <svg
-                className="flex-shrink-0 mt-0.5 h-4 w-4 text-blue-600 dark:text-blue-500"
-                xmlns="http://www.w3.org/2000/svg"
-                width={24}
-                height={24}
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={2}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <polyline points="20 6 9 17 4 12" />
-              </svg>
-              <span className="text-gray-800 dark:text-gray-400">5 users</span>
-            </li>
+            
             <li className="flex space-x-2">
               <svg
                 className="flex-shrink-0 mt-0.5 h-4 w-4 text-blue-600 dark:text-blue-500"
@@ -244,7 +212,7 @@ const Pricing = () => {
                 <polyline points="20 6 9 17 4 12" />
               </svg>
               <span className="text-gray-800 dark:text-gray-400">
-                Plan features
+                Unlimited Credits
               </span>
             </li>
             <li className="flex space-x-2">
@@ -263,7 +231,7 @@ const Pricing = () => {
                 <polyline points="20 6 9 17 4 12" />
               </svg>
               <span className="text-gray-800 dark:text-gray-400">
-                Product support
+                2 Users
               </span>
             </li>
           </ul>
@@ -288,23 +256,7 @@ const Pricing = () => {
             Advanced features for scaling your business
           </p>
           <ul className="mt-7 space-y-2.5 text-sm">
-            <li className="flex space-x-2">
-              <svg
-                className="flex-shrink-0 mt-0.5 h-4 w-4 text-blue-600 dark:text-blue-500"
-                xmlns="http://www.w3.org/2000/svg"
-                width={24}
-                height={24}
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={2}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <polyline points="20 6 9 17 4 12" />
-              </svg>
-              <span className="text-gray-800 dark:text-gray-400">10 users</span>
-            </li>
+           
             <li className="flex space-x-2">
               <svg
                 className="flex-shrink-0 mt-0.5 h-4 w-4 text-blue-600 dark:text-blue-500"
@@ -321,7 +273,7 @@ const Pricing = () => {
                 <polyline points="20 6 9 17 4 12" />
               </svg>
               <span className="text-gray-800 dark:text-gray-400">
-                Plan features
+                Unlimited Credits
               </span>
             </li>
             <li className="flex space-x-2">
@@ -340,7 +292,7 @@ const Pricing = () => {
                 <polyline points="20 6 9 17 4 12" />
               </svg>
               <span className="text-gray-800 dark:text-gray-400">
-                Product support
+                5 Users
               </span>
             </li>
           </ul>
