@@ -39,6 +39,35 @@ div#__next > main {
 }
 
 
+.beta-chip {
+  background-color: #DAE6FC; /* Your desired background color */
+  color: #6105f5;            /* Your desired text color */
+  font-size: 0.7rem;         /* Smaller text */
+  font-weight: bold;
+  padding: 0.15rem 0.4rem;   /* Reduced padding for smaller size */
+  border-radius: 4px;        /* Rounded corners */
+  margin-left: 0.3rem;      /* Negative margin to overlap the logo text */
+  line-height: 1;            /* Ensures vertical centering */
+}
+
+.hamburger-button {
+  background-color: transparent;
+  border: none;
+  padding: 0.5rem; /* Adjust as needed */
+  cursor: pointer;
+}
+
+.hamburger-line {
+  display: block;
+  width: 20px; /* Adjust the length as needed */
+  height: 2px;  /* Adjust thickness as needed */
+  background-color: #00008B; /* Navy blue  */
+  margin-bottom: 4px; /* Adjust spacing between lines */
+}
+
+.hamburger-line:last-child {
+  margin-bottom: 0;
+}
 
 
 
@@ -46,6 +75,16 @@ div#__next > main {
   margin-left: 30px; /* Adjust the margin-left value to reduce the spacing */
 }
 
+.logo {
+  width: 40px;  /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Padding between logo and text */
+}
+
+.flex { /* Adjust the 'flex' class if you're using it elsewhere */
+  display: flex;
+  align-items: center; 
+}
 
 
 

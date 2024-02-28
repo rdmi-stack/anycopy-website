@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 const Modal = () => {
   const [isOpen, setIsOpen] = useState(false);
-
+ 
+  
   const toggleModal = () => {
     setIsOpen(!isOpen);
   };
@@ -17,53 +18,28 @@ const Modal = () => {
       >
         <div className="relative md:flex md:items-center md:justify-between">
           <div className="flex items-center justify-between">
-            <a
-              className="flex-none text-xl font-semibold dark:text-white dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-              href="#"
-              aria-label="Brand"
-            >
-              AnyCopy
-            </a>
+          <a
+  className="flex items-center text-xl font-semibold dark:text-white dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+  href="/"
+  aria-label="Brand"
+>
+  <img src="/logo.png" alt="AnyCopy" className="logo"/> 
+  AnyCopy    <span className="beta-chip">BETA</span> 
+
+</a>
+
             <div className="md:hidden">
-              <button
-                type="button"
-                className="hs-collapse-toggle flex justify-center items-center size-9 text-sm font-semibold rounded-lg border border-gray-200 text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                data-hs-collapse="#navbar-collapse-with-animation"
-                aria-controls="navbar-collapse-with-animation"
-                aria-label="Toggle navigation"
-              >
-                <svg
-                  className="hs-collapse-open:hidden flex-shrink-0 size-4"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width={24}
-                  height={24}
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <line x1={3} x2={21} y1={6} y2={6} />
-                  <line x1={3} x2={21} y1={12} y2={12} />
-                  <line x1={3} x2={21} y1={18} y2={18} />
-                </svg>
-                <svg
-                  className="hs-collapse-open:block hidden flex-shrink-0 size-4"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width={24}
-                  height={24}
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M18 6 6 18" />
-                  <path d="m6 6 12 12" />
-                </svg>
-              </button>
+            <button
+  type="button"
+  className="hamburger-button md:hidden" // Add className for styling 
+  data-hs-collapse="#navbar-collapse-with-animation"
+  aria-controls="navbar-collapse-with-animation"
+  aria-label="Toggle navigation"
+>
+  <span className="hamburger-line"></span>
+  <span className="hamburger-line"></span>
+</button>
+
             </div>
           </div>
           <div
