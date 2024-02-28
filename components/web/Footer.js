@@ -38,7 +38,7 @@ const Modal = () => {
             <p>
               <a
                 className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                href="#"
+                href="/pricing"
               >
                 Pricing
               </a>
@@ -52,7 +52,7 @@ const Modal = () => {
             <p>
               <a
                 className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                href="#"
+                href="/about"
               >
                 About us
               </a>
