@@ -45,7 +45,7 @@ const Pricing = () => {
         {/* Card */}
         <div className="flex flex-col border border-gray-200 text-center rounded-xl p-8 dark:border-gray-700">
           <h4 className="font-medium text-lg text-gray-800 dark:text-gray-200">
-            Free
+            Free Forever
           </h4>
           <span className="mt-7 font-bold text-5xl text-gray-800 dark:text-gray-200">
             Free
@@ -67,7 +67,7 @@ const Pricing = () => {
               >
                 <polyline points="20 6 9 17 4 12" />
               </svg>
-              <span className="text-gray-800 dark:text-gray-400">1 user</span>
+              <span className="text-gray-800 dark:text-gray-400">20 Credits Monthly</span>
             </li>
             <li className="flex space-x-2">
               <svg
@@ -85,7 +85,7 @@ const Pricing = () => {
                 <polyline points="20 6 9 17 4 12" />
               </svg>
               <span className="text-gray-800 dark:text-gray-400">
-                Plan features
+                30+ Templates
               </span>
             </li>
             <li className="flex space-x-2">
@@ -112,7 +112,7 @@ const Pricing = () => {
             className="mt-5 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-100 text-blue-800 hover:bg-blue-200 disabled:opacity-50 disabled:pointer-events-none dark:hover:bg-blue-900 dark:text-blue-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
             href="#"
           >
-            Sign up
+            Start For Free
           </a>
         </div>
         {/* End Card */}
@@ -128,7 +128,7 @@ const Pricing = () => {
           </h4>
           <span className="mt-5 font-bold text-5xl text-gray-800 dark:text-gray-200">
             <span className="font-bold text-2xl -me-2">$</span>
-            39
+            49
           </span>
           <p className="mt-2 text-sm text-gray-500">
             All the basics for starting a new business
@@ -205,7 +205,7 @@ const Pricing = () => {
           </h4>
           <span className="mt-5 font-bold text-5xl text-gray-800 dark:text-gray-200">
             <span className="font-bold text-2xl -me-2">$</span>
-            89
+            99
           </span>
           <p className="mt-2 text-sm text-gray-500">
             Everything you need for a growing business
@@ -282,7 +282,7 @@ const Pricing = () => {
           </h4>
           <span className="mt-5 font-bold text-5xl text-gray-800 dark:text-gray-200">
             <span className="font-bold text-2xl -me-2">$</span>
-            149
+            299
           </span>
           <p className="mt-2 text-sm text-gray-500">
             Advanced features for scaling your business
