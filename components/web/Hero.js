@@ -30,9 +30,9 @@ const Modal = () => {
           </div>
           <div className="md:w-1/2 md:order-2">
             <img
-              src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg"
+              src="/images/anycopy-hero.png"
               alt="AI Writing Interface"
-              className="rounded-lg shadow-lg"
+             
             />
           </div>
         </div>

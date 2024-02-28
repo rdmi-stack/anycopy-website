@@ -29,9 +29,9 @@ const Modal = () => {
             <p>
               <a
                 className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                href="/features"
+                href="/blog"
               >
-                Features
+                Blog
               </a>
             </p>
            
@@ -52,37 +52,35 @@ const Modal = () => {
             <p>
               <a
                 className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                href="/about"
+                href="/privacy"
               >
-                About us
+                Privacy Policy
               </a>
             </p>
             <p>
               <a
                 className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                href="/contact"
+                href="/terms"
               >
-                Contact Us
+                Terms & Conditions
               </a>
             </p>
             <p>
               <a
                 className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                href="/blog"
+                href="/cookies-policy"
               >
-                Blog
+                Cookies Policy
               </a>
             </p>
             <p>
               <a
                 className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                href="/career"
+                href="/data-protection"
               >
-                Careers
-              </a>{" "}
-              <span className="inline ms-1 text-xs bg-blue-700 text-white py-1 px-2 rounded-lg">
-                We're hiring
-              </span>
+                Data Protection
+              </a>
+             
             </p>
            
           </div>
