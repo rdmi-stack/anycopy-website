@@ -20,7 +20,7 @@ const Notification = () => {
           Generative AI for Marketing and Sales.{" "}
             <a
               className="decoration-2 underline font-medium hover:text-white/[.8] dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-              href="../figma.html"
+              href="/gen-ai-ebook"
             >
 Download E-Book            </a>
           </p>
