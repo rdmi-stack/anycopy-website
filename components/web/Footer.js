@@ -18,10 +18,11 @@ const Modal = () => {
         <div className="col-span-full lg:col-span-1">
         <Link href="/">
   <a className="flex items-center text-xl font-semibold text-white dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" aria-label="Brand">
-    <Image src="/images/anylogo.jpg" alt="AnyCopy" className="logo" width={40} height={40} />  {/* Adjust width/height as needed */}
-    AnyCopy <span className="beta-chip text-white">BETA</span> 
+    <img src="/images/anylogo.jpg" alt="AnyCopy" className="logo" width={40} height={40} /> {/* Adjust width/height as needed */}
+    AnyCopy <span className="beta-chip text-white">BETA</span>
   </a>
 </Link>
+
 
         </div>
         {/* End Col */}
@@ -38,7 +39,7 @@ const Modal = () => {
            
             <p>
               
-            <Link href="/pricing">
+            <Link href="/Pricing">
   <a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
     Pricing
   </a>

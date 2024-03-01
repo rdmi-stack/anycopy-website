@@ -37,7 +37,7 @@ const Modal = () => {
                 className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one"
               >
-                Can I cancel at anytime?
+                What is AnyCopy?
                 <svg
                   className="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                   xmlns="http://www.w3.org/2000/svg"
@@ -73,9 +73,7 @@ const Modal = () => {
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-one"
               >
                 <p className="text-gray-600 dark:text-gray-400">
-                  Yes, you can cancel anytime no questions are asked while you
-                  cancel but we would highly appreciate if you will give us some
-                  feedback.
+                AnyCopy is an AI-driven SaaS platform designed to streamline content creation and management for marketing and sales teams. It utilizes advanced AI models like GPT-3.5, GPT-4, and Claude to generate, rephrase, and optimize marketing and sales content automatically.
                 </p>
               </div>
             </div>
@@ -87,7 +85,7 @@ const Modal = () => {
                 className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two"
               >
-                My team has credits. How do we use them?
+               How can AI content generation benefit my marketing strategy?
                 <svg
                   className="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                   xmlns="http://www.w3.org/2000/svg"
@@ -123,8 +121,7 @@ const Modal = () => {
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two"
               >
                 <p className="text-gray-600 dark:text-gray-400">
-                  Once your team signs up for a subscription plan. This is where
-                  we sit down, grab a cup of coffee and dial in the details.
+                AI content generation in AnyCopy can significantly enhance your marketing strategy by saving time, ensuring consistency, and providing creative input. It empowers marketers to generate high-quality content across various channels efficiently.
                 </p>
               </div>
             </div>
@@ -136,7 +133,7 @@ const Modal = () => {
                 className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three"
               >
-                How does anycopy's pricing work?
+                How does AnyCopy ensure content uniqueness and avoid plagiarism?
                 <svg
                   className="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                   xmlns="http://www.w3.org/2000/svg"
@@ -172,8 +169,7 @@ const Modal = () => {
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-three"
               >
                 <p className="text-gray-600 dark:text-gray-400">
-                  Our subscriptions are tiered. Understanding the task at hand and
-                  ironing out the wrinkles is key.
+                The AI models in AnyCopy are designed to generate unique content based on user input and project details. The platform prioritizes originality and avoids plagiarism by leveraging advanced algorithms to understand context and generate diverse content.
                 </p>
               </div>
             </div>
@@ -185,7 +181,7 @@ const Modal = () => {
                 className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-four"
               >
-                How secure is Anycopy?
+                What distinguishes AnyCopy from other AI-driven content creation platforms?
                 <svg
                   className="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                   xmlns="http://www.w3.org/2000/svg"
@@ -221,9 +217,7 @@ const Modal = () => {
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-four"
               >
                 <p className="text-gray-600 dark:text-gray-400">
-                  Protecting the data you trust to Anycopy is our first priority.
-                  This part is really crucial in keeping the project in line to
-                  completion.
+                AnyCopy stands out for its user-friendly interface, extensive template library, and upcoming features like AI-powered workflows. Our commitment to user privacy, security, and continuous innovation sets us apart in the content creation industry.
                 </p>
               </div>
             </div>
@@ -235,7 +229,7 @@ const Modal = () => {
                 className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-five"
               >
-                How do I get access to a theme I purchased?
+                How accurate is the AI content generation in AnyCopy?
                 <svg
                   className="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                   xmlns="http://www.w3.org/2000/svg"
@@ -271,12 +265,7 @@ const Modal = () => {
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-five"
               >
                 <p className="text-gray-600 dark:text-gray-400">
-                  If you lose the link for a theme you purchased, don't panic!
-                  We've got you covered. You can login to your account, tap your
-                  avatar in the upper right corner, and tap Purchases. If you
-                  didn't create a login or can't remember the information, you can
-                  use our handy Redownload page, just remember to use the same
-                  email you originally made your purchases with.
+                AnyCopy utilizes advanced AI models such as GPT-3.5, GPT-4, and Gemini Pro, resulting in highly accurate and context-aware content generation. However, it's recommended to review and fine-tune the generated content to align with your specific needs.
                 </p>
               </div>
             </div>
@@ -288,7 +277,7 @@ const Modal = () => {
                 className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-six"
               >
-                Upgrade License Type
+                What types of content templates are available?
                 <svg
                   className="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                   xmlns="http://www.w3.org/2000/svg"
@@ -324,10 +313,7 @@ const Modal = () => {
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-six"
               >
                 <p className="text-gray-600 dark:text-gray-400">
-                  There may be times when you need to upgrade your license from
-                  the original type you purchased and we have a solution that
-                  ensures you can apply your original purchase cost to the new
-                  license purchase.
+                AnyCopy offers over 100 pre-built templates for various marketing and sales content types, including Google Ads, Facebook Ads, Landing Pages, Email Campaigns, Sales Scripts, Blog Posts, Social Media Posts, Product Descriptions, Case Studies, and Whitepapers.
                 </p>
               </div>
             </div>
