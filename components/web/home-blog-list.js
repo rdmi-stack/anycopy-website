@@ -19,7 +19,7 @@ Latest Post        </h2>
         {/* Card */}
         <a
           className="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5 dark:border-gray-700 dark:hover:border-transparent dark:hover:shadow-black/[.4] dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-          href="#"
+          href="/blog/checklist-ai"
         >
           <div className="aspect-w-16 aspect-h-11">
             <img
@@ -52,7 +52,7 @@ Latest Post        </h2>
         {/* Card */}
         <a
           className="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5 dark:border-gray-700 dark:hover:border-transparent dark:hover:shadow-black/[.4] dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-          href="#"
+          href="/blog/marketing-strategies"
         >
           <div className="aspect-w-16 aspect-h-11">
             <img
@@ -85,7 +85,7 @@ Latest Post        </h2>
         {/* Card */}
         <a
           className="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5 dark:border-gray-700 dark:hover:border-transparent dark:hover:shadow-black/[.4] dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-          href="#"
+          href="/blog/5-ways-email-marketing"
         >
           <div className="aspect-w-16 aspect-h-11">
             <img
@@ -120,7 +120,7 @@ Latest Post        </h2>
       <div className="mt-12 text-center">
         <a
           className="py-3 px-4 inline-flex items-center gap-x-1 text-sm font-medium rounded-full border border-gray-200 bg-white text-blue-600 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-blue-500 dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-          href="#"
+          href="/blog"
         >
           Read more
           <svg
