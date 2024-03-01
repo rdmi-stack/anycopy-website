@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image'; 
+
 
 const Modal = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,39 +11,39 @@ const Modal = () => {
   };
 
   return (
-    <footer className="bg-gray-900 w-full">
+    <footer className="bg-black w-full">
     <div className="w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 lg:pt-20 mx-auto">
       {/* Grid */}
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
         <div className="col-span-full lg:col-span-1">
-          <a
-            className="flex-none text-xl font-semibold text-white dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-            href="#"
-            aria-label="ANYCOPY"
-          >
-            ANYCOPY
-          </a>
+        <Link href="/">
+  <a className="flex items-center text-xl font-semibold text-white dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" aria-label="Brand">
+    <Image src="/images/anylogo.jpg" alt="AnyCopy" className="logo" width={40} height={40} />  {/* Adjust width/height as needed */}
+    AnyCopy <span className="beta-chip text-white">BETA</span> 
+  </a>
+</Link>
+
         </div>
         {/* End Col */}
         <div className="col-span-1">
           <h4 className="font-semibold text-gray-100">Product</h4>
           <div className="mt-3 grid space-y-3">
             <p>
-              <a
-                className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                href="/blog"
-              >
-                Blog
-              </a>
+            <Link href="/blog">
+                  <a className="inline-flex gap-x-2 text-gray-300 hover:text-gray-100 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+                    Blog 
+                  </a>
+                </Link>
             </p>
            
             <p>
-              <a
-                className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                href="/pricing"
-              >
-                Pricing
-              </a>
+              
+            <Link href="/pricing">
+  <a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+    Pricing
+  </a>
+</Link>
+
             </p>
           </div>
         </div>
@@ -50,38 +52,22 @@ const Modal = () => {
           <h4 className="font-semibold text-gray-100">Company</h4>
           <div className="mt-3 grid space-y-3">
             <p>
-              <a
-                className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                href="/privacy"
-              >
-                Privacy Policy
-              </a>
+            <Link href="/privacy-policy">
+  <a className="inline-flex gap-x-2 text-gray-300 hover:text-gray-100 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+    Privacy Policy
+  </a>
+</Link>
+
             </p>
             <p>
-              <a
-                className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                href="/terms"
-              >
-                Terms & Conditions
-              </a>
+            <Link href="/terms-of-use">
+  <a className="inline-flex gap-x-2 text-gray-300 hover:text-gray-100 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+    Terms of Use
+  </a>
+</Link>
+
             </p>
-            <p>
-              <a
-                className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                href="/cookies-policy"
-              >
-                Cookies Policy
-              </a>
-            </p>
-            <p>
-              <a
-                className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                href="/data-protection"
-              >
-                Data Protection
-              </a>
-             
-            </p>
+            
            
           </div>
         </div>

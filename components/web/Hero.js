@@ -18,14 +18,13 @@ const Modal = () => {
               <span className="text-indigo-600">Write Smarter,</span> Faster, Better
             </h1>
             <p className="text-lg mb-10 md:text-left text-gray-600 text-center">
-              Effortlessly create compelling copy for websites, ads, and more with
-              AI-powered tools.
+            Supercharge your content creation with AnyCopy.  Effortlessly craft engaging copy for your website, blog, social media, ads, emails, and more. With AnyCopy's intuitive web app, desktop integration, and seamless Chrome extension, you'll always have the perfect words at your fingertips.
             </p>
             <a
-              href="#"
+              href="/waitlist"
               className="bg-indigo-600 text-white hover:bg-indigo-700 font-bold py-4 px-10 rounded-full inline-block"
             >
-              Start Your Free Trial
+              Join the Waitlist
             </a>
           </div>
           <div className="md:w-1/2 md:order-2">
