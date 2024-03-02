@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 const Notification = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,14 +17,14 @@ const Notification = () => {
     >
       <div className="max-w-[85rem] px-4 py-4 sm:px-6 lg:px-8 mx-auto">
         <div className="flex">
-          <p className="text-white">
-          Generative AI for Marketing and Sales.{" "}
-            <a
-              className="decoration-2 underline font-medium hover:text-white/[.8] dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-              href="/gen-ai-ebook"
-            >
-Download E-Book            </a>
-          </p>
+        <p className="text-white">
+  Generative AI for Marketing and Sales.{' '}
+  <Link href="/gen-ai-ebook">
+    <a className="decoration-2 underline font-medium hover:text-white/[.8] dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+      Download E-Book
+    </a>
+  </Link>
+</p>
           <div className="ps-3 ms-auto">
             <button
               type="button"
