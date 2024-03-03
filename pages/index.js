@@ -13,6 +13,8 @@ import FeatureSection1 from '../components/web/FeatureSection1';
 import Notification from '../components/web/notification';
 import Help from '../components/web/Help';
 import FeatureSection3 from '../components/web/FeatureSection3';
+import Feature5 from '../components/feature5';       // Footer component
+
 import Link from 'next/link';
 import Head from 'next/head';
 
@@ -34,7 +36,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <FeatureSection1 />
-
+<Feature5 />  
 
       <Feature
  title="Automate Your Workflow"
