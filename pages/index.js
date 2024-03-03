@@ -7,7 +7,7 @@ import BlogList from '../components/web/home-blog-list';       // Footer compone
 import Pricing from '../components/pricing';
 import HomeVideo from '../components/homevideo';
 import Video from '../components/web/video';
-import Feature4 from '../components/feature4';
+import Feature from '../components/feature4';
 import Faqs from '../components/web/Faqs';
 import FeatureSection1 from '../components/web/FeatureSection1';
 import Notification from '../components/web/notification';
@@ -36,7 +36,11 @@ export default function Home() {
       <FeatureSection1 />
 
 
-    <Feature4 />
+      <Feature
+ title="Automate Your Workflow"
+ description="Effortlessly create and manage tasks, set deadlines, and track progress – so you can stay on top of your projects."
+ imageUrl="/images/imagewriter" // Use your actual image here
+/>
     
    
       <Pricing />

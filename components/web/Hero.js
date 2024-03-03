@@ -16,7 +16,7 @@ const Modal = () => {
          style={{backgroundColor: '#f4f4f6'}}> 
         <div className="container mx-auto text-center md:flex md:space-x-8 md:items-center md:text-left">
           <div className="md:w-1/2 mb-6 md:mb-0 md:order-1">
-          <h1 className="text-3xl font-bold mb-6 md:text-left text-gray-800 sm:text-5xl md:text-5xl lg:text-6xl text-center !important"> 
+         <h1 className="text-3xl font-bold mb-6 md:text-left text-gray-800 sm:text-5xl md:text-5xl lg:text-6xl text-center !important"> 
   {/* Add !important if specificity is an issue  */}
   <span className="text-indigo-600">Write Smarter,</span> Faster, Better
 </h1>

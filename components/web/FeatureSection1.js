@@ -145,7 +145,7 @@ const Modal = () => {
                 >
                   <img
                     className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
-                    src="/images/google_ads_-jpg.jpg"
+                    src="/homepage/landingpage.png"
                     alt="Image Description"
                   />
                 </div>
@@ -157,7 +157,7 @@ const Modal = () => {
                 >
                   <img
                     className="rounded-xl dark:shadow-gray-900/[.2]"
-                    src="/images/google_ads_-png.png"
+                    src="/homepage/googleads.png"
                     alt="Image Description"
                   />
                 </div>
@@ -169,7 +169,7 @@ const Modal = () => {
                 >
                   <img
                     className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
-                    src="https://images.unsplash.com/photo-1598929213452-52d72f63e307?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&h=1220&q=80"
+                    src="/homepage/facebookad.png"
                     alt="Image Description"
                   />
                 </div>
