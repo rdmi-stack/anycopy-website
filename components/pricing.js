@@ -397,7 +397,7 @@ const Pricing = () => {
           </h4>
           <span className="mt-5 font-bold text-5xl text-gray-800 dark:text-gray-200">
             <span className="font-bold text-2xl -me-2">$</span>
-            299
+            249
           </span>
           <p className="mt-2 text-sm text-gray-500">
             Advanced features for scaling your business
