@@ -13,9 +13,10 @@ const Feature5 = ({ title, description, imageUrl }) => {
       assistant understands your needs and tailors content to your exact
       specifications.
     </p>
-    <button className="bg-black text-white py-3 px-6 rounded-full hover:bg-gray-900">
-      Get Started
-    </button>
+    <a href="/waitlist">
+          <button className="bg-black text-white py-3 px-6 rounded-full hover:bg-gray-900">
+            Join the Waitlist
+          </button></a>
   </div>
   <div className="md:w-1/2">
     <img
