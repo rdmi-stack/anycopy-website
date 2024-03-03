@@ -38,11 +38,8 @@ export default function Home() {
       <FeatureSection1 />
 <Feature5 />  
 
-      <Feature
- title="Automate Your Workflow"
- description="Effortlessly create and manage tasks, set deadlines, and track progress – so you can stay on top of your projects."
- imageUrl="/images/imagewriter" // Use your actual image here
-/>
+<FeatureSection3 />
+
     
    
       <Pricing />
