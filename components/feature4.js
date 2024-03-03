@@ -150,13 +150,13 @@ const Modal = () => {
                   <span className="w-2 h-2 bg-gray-200 rounded-full dark:bg-gray-700" />
                 </div>
                 <div className="flex justify-center items-center w-full h-full bg-gray-200 text-[.25rem] text-gray-800 rounded-sm sm:text-[.5rem] dark:bg-gray-700 dark:text-gray-200">
-                  www.preline.co
+                  www.anycopy.ai
                 </div>
               </div>
               <div className="bg-gray-800 rounded-b-lg">
                 <img
                   className="max-w-full h-auto rounded-b-lg"
-                  src="../assets/img/mockups/img8.jpg"
+                  src="/images/Landingpage.png"
                   alt="Image Description"
                 />
               </div>
@@ -193,13 +193,13 @@ const Modal = () => {
                   <span className="w-2 h-2 bg-gray-700 rounded-full" />
                 </div>
                 <div className="flex justify-center items-center w-full h-full bg-gray-700 text-[.25rem] text-gray-200 rounded-sm sm:text-[.5rem]">
-                  www.preline.co
+                  www.anycopy.ai
                 </div>
               </div>
               <div className="bg-gray-800 rounded-b-lg">
                 <img
                   className="max-w-full h-auto rounded-b-lg"
-                  src="../assets/img/mockups/img10.jpg"
+                  src="/images/facebookad.png"
                   alt="Image Description"
                 />
               </div>
@@ -236,13 +236,13 @@ const Modal = () => {
                   <span className="w-2 h-2 bg-gray-200 rounded-full dark:bg-gray-700" />
                 </div>
                 <div className="flex justify-center items-center w-full h-full bg-gray-200 text-[.25rem] text-gray-800 rounded-sm sm:text-[.5rem] dark:bg-gray-700 dark:text-gray-200">
-                  www.preline.co
+                  www.anycopy.ai
                 </div>
               </div>
               <div className="bg-gray-800 rounded-b-lg">
                 <img
                   className="max-w-full h-auto rounded-b-lg"
-                  src="../assets/img/mockups/img12.jpg"
+                  src="/images/facebookad.png"
                   alt="Image Description"
                 />
               </div>
