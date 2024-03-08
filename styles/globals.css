@@ -18,6 +18,10 @@ div#__next > main {
   background-color: rgba(255, 255, 255, 0); /* Fully transparent */
 }
 
+/* styles.css (or your styles file) */
+.bg-custom-yellow {
+  background-color: #D2F429;
+}
 
 
 .full-height {
