@@ -2,7 +2,7 @@ import React from 'react';
 
 const Feature5 = ({ title, description, imageUrl }) => {
   return (
-    <div className="flex flex-col md:flex-row bg-yellow-500">
+    <div className="flex flex-col md:flex-row bg-#D2F429">
   <div className="md:w-1/2 px-6 py-12 md:py-24 md:px-12">
     <h1 className="text-5xl font-bold text-black px-4 py-2 mb-6">
       AI Content Generation
