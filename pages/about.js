@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from '../components/web/NavigationBar'; // NavigationBar component
 import Footer from '../components/web/Footer';       // Footer component
+import Link from 'next/link';
 
 const About1 = () => {
   return (
@@ -624,12 +625,11 @@ const About1 = () => {
                 <p className="mb-8 text-base text-body-color dark:text-dark-6">
                 Our customizable templates, URL to Ad generator, and cross-platform compatibility save you hours of tedious writing. Experience the power of cutting-edge AI that helps you create better content, faster.
                 </p>
-                <a
-                  href="/contact"
-                  className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-primary hover:bg-opacity-90"
-                >
-                Contact Us
-                </a>
+                <Link href="/contact">
+      <a className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-primary hover:bg-opacity-90">
+        Contact Us
+      </a>
+    </Link>
               </div>
             </div>
           </div>
