@@ -1,8 +1,12 @@
 import React from "react";
+import Navbar from '../components/web/NavigationBar'; // NavigationBar component
+import Footer from '../components/web/Footer';       // Footer component
 
 const About1 = () => {
   return (
     <>
+          <Navbar />
+
       <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-white dark:bg-dark">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">
@@ -631,6 +635,8 @@ const About1 = () => {
           </div>
         </div>
       </section>
+      <Footer />
+
     </>
   );
 };
