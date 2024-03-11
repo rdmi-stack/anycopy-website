@@ -3,7 +3,7 @@
 import React from "react";
 import Head from "next/head";
 
-const ThankYou = () => {
+const ThankYou = ({ query }) => {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
       <Head>
@@ -92,3 +92,10 @@ const ThankYou = () => {
 };
 
 export default ThankYou;
+export const getServerSideProps = ({ query }) => {
+  return {
+    props: {
+      query,
+    },
+  };
+};
