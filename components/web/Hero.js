@@ -1,53 +1,80 @@
-import React, { useState } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+import React, { useState, useEffect, useRef } from "react";
 
-const Modal = () => {
-  const [isOpen, setIsOpen] = useState(false);
+const HeroSection = () => {
+  const baseHeadline = "Write Marketing Copy in Seconds with AI: ";
+  const changingWords = ["Email", "Website", "Landing Page", "Social Media"];
+  const [currentWordIndex, setCurrentWordIndex] = useState(0);
+  const [displayText, setDisplayText] = useState(
+    baseHeadline + changingWords[0],
+  );
+  const typingDelay = 200; // Adjust for desired typing speed
 
-  const toggleModal = () => {
-    setIsOpen(!isOpen);
-  };
+  const headlineElementRef = useRef(null);
 
+  useEffect(() => {
+    let typingInterval;
+
+    if (headlineElementRef.current) {
+      const typeWord = () => {
+        let currentText = headlineElementRef.current.textContent;
+        // Erase last 2-3 characters
+        const eraseStart = Math.max(0, currentText.length - 3);
+        currentText = currentText.substring(0, eraseStart);
+
+        // Append next character from the current word
+        const word = changingWords[currentWordIndex];
+        currentText += word.substring(
+          0,
+          currentText.length - baseHeadline.length + 1,
+        ); // +1 to keep iterating
+
+        setDisplayText(currentText);
+
+        if (currentText === baseHeadline + word) {
+          // Move to next word after brief pause (adjust 1000 for desired pause duration)
+          setTimeout(() => {
+            setCurrentWordIndex(
+              (prevIndex) => (prevIndex + 1) % changingWords.length,
+            );
+          }, 1000);
+        }
+      };
+
+      typingInterval = setInterval(typeWord, typingDelay);
+    }
+
+    return () => clearInterval(typingInterval);
+  }, [currentWordIndex, baseHeadline, changingWords, typingDelay]); // Dependency array for useEffect
   return (
-    <>
-      {/* Hero */}
-      <section className="bg-white py-12 flex items-center justify-center min-h-screen" 
-         style={{backgroundColor: '#f4f4f6'}}> 
-        <div className="container mx-auto text-center md:flex md:space-x-8 md:items-center md:text-left">
-          <div className="md:w-1/2 mb-6 md:mb-0 md:order-1">
-         <h1 className="text-3xl font-bold mb-6 md:text-left text-gray-800 sm:text-5xl md:text-5xl lg:text-6xl text-center !important"> 
-  {/* Add !important if specificity is an issue  */}
-  <span className="text-indigo-600">Write Smarter,</span> Faster, Better
-</h1>
-            <p className="text-lg mb-10 md:text-left text-gray-600 text-center">
-            Supercharge your content creation with AnyCopy.  Effortlessly craft engaging copy for your website, blog, social media, ads, emails, and more. With AnyCopy's intuitive web app, desktop integration, and seamless Chrome extension, you'll always have the perfect words at your fingertips.
+    <section className="bg-white py-16 md:py-32">
+      <div className="container mx-auto px-4 md:px-6">
+        <div className="flex flex-col md:flex-row items-center">
+          <div className="md:w-1/2 mb-10 md:mb-0 md:mr-8 text-center md:text-left">
+            <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6 leading-tight">
+              AI Copy Assistant for Marketing and Sales
+            </h1>
+            <p className="text-lg text-gray-700 mb-8">
+              Experience unparalleled productivity and efficiency with our
+              cutting-edge AI Assistant.
             </p>
             <a
-              href="/waitlist"
-              className="bg-indigo-600 text-white hover:bg-indigo-700 font-bold py-4 px-10 rounded-full inline-block"
+              href="#"
+              className="inline-block bg-gray-900 text-white text-lg md:text-xl font-semibold py-4 px-8 rounded-md hover:bg-gray-800 transition-colors"
             >
-              Join the Waitlist
+              Get Started for Free
             </a>
           </div>
-          <div className="md:w-1/2 md:order-2">
+          <div className="md:w-1/2">
             <img
               src="/images/anycopy-hero.png"
-              alt="AI Writing Interface"
-             
+              alt="AI Assistant"
+              className="rounded-lg shadow-none"
             />
           </div>
         </div>
-      </section>
-      {/* End Hero */}
-
-      {/* Your modal component's logic would go here */} 
-    </>  
+      </div>
+    </section>
   );
 };
 
-export default Modal;
-
-// **Reminder: CSS Reset**
-// If you're still encountering extra space due to default browser styles,
-// consider adding a CSS reset like Normalize.css at the beginning of your project. 
+export default HeroSection;
