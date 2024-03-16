@@ -54,11 +54,11 @@ const HeroSection = () => {
               AI Copy Assistant for Marketing and Sales
             </h1>
             <p className="text-lg text-gray-700 mb-8">
-              Experience unparalleled productivity and efficiency with our
-              cutting-edge AI Assistant.
+              Write smarter, not harder with AI. Generate copy in seconds for
+              websites, ads, emails, and more
             </p>
             <a
-              href="#"
+              href="/waitlist"
               className="inline-block bg-gray-900 text-white text-lg md:text-xl font-semibold py-4 px-8 rounded-md hover:bg-gray-800 transition-colors"
             >
               Get Started for Free
