@@ -58,10 +58,10 @@ const HeroSection = () => {
               websites, ads, emails, and more
             </p>
             <a
-              href="/waitlist"
+              href="https://app.anycopy.co/signup"
               className="inline-block bg-gray-900 text-white text-lg md:text-xl font-semibold py-4 px-8 rounded-md hover:bg-gray-800 transition-colors"
             >
-              Get Started for Free
+              Start Your Free 
             </a>
           </div>
           <div className="md:w-1/2">
