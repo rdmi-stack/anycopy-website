@@ -46,16 +46,7 @@ const HeroSection = () => {
     return () => clearInterval(typingInterval);
   }, [currentWordIndex, baseHeadline, changingWords, typingDelay]); // Dependency array for useEffect
   return (
-    <section className="bg-white py-16 md:py-32">
-    <div className="container mx-auto px-4 md:px-6">
-      <div className="flex flex-col md:flex-row items-center">
-        <div className="md:w-1/2 mb-10 md:mb-0 md:mr-8 text-left">
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6 leading-tight">
-            AI Copy Assistant for Marketing and Sales
-          </h1>
-          <p className="text-lg text-gray-700 mb-8">
-            Write smarter, not harder with AI. Generate copy in seconds for websites, ads, emails, and more
-          </p>
+    <section className="bg-white py-16 md:py-32"> <div className="container mx-auto px-4 md:px-6"> <div className="flex flex-col md:flex-row items-center"> <div className="md:w-1/2 mb-10 md:mb-0 md:mr-8 text-center md:text-left"> <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6 leading-tight"> AI Copy Assistant for Marketing and Sales </h1> <p className="text-lg text-gray-700 mb-8"> Write smarter, not harder with AI. Generate copy in seconds for websites, ads, emails, and more </p>
           <div className="flex flex-col md:flex-row md:items-start">
             <div>
               <a href="https://app.anycopy.co/signup" className="inline-block bg-gray-900 text-white text-lg md:text-xl font-semibold py-4 px-8 rounded-md hover:bg-gray-800 transition-colors">
