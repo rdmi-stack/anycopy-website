@@ -13,9 +13,9 @@ const Feature5 = ({ title, description, imageUrl }) => {
           AI assistant understands your needs and tailors content to your exact
           specifications.
         </p>
-        <a href="/waitlist">
+        <a href="https://app.anycopy.co/signup">
           <button className="bg-white text-black py-3 px-6 rounded-full hover:bg-gray-900">
-            Join the Waitlist
+            Start Your Free Trial
           </button>
         </a>
       </div>

@@ -40,7 +40,7 @@ const Modal = () => {
                 aria-label="Brand"
               >
                 <img src="/logo.png" alt="AnyCopy" className="logo" />
-                AnyCopy <span className="beta-chip">BETA</span>
+                ANYCOPY 
               </a>
 
               <div className="md:hidden">
@@ -76,7 +76,14 @@ const Modal = () => {
                       Pricing
                     </a>
                   </Link>
-
+                  <Link href="/login">
+  <a className="font-medium text-blue-600 py-3 md:py-6 flex items-center dark:text-blue-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+    <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
+    </svg>
+    Login
+  </a>
+</Link>
                   <div className="pt-3 md:pt-0">
                     <a
                       className="py-2.5 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-black text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"

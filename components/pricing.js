@@ -109,7 +109,7 @@ const Pricing = () => {
           </ul>
           <a
             className="mt-5 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-100 text-blue-800 hover:bg-blue-200 disabled:opacity-50 disabled:pointer-events-none dark:hover:bg-blue-900 dark:text-blue-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-            href="/waitlist"
+            href="https://app.anycopy.co/signup"
           >
             Start For Free
           </a>
@@ -249,7 +249,7 @@ const Pricing = () => {
           </ul>
           <a
             className="mt-5 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-            href="/waitlist"
+            href="/signup"
           >
             Start Your Free Trial
           </a>
@@ -384,7 +384,7 @@ const Pricing = () => {
           </ul>
           <a
             className="mt-5 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-100 text-blue-800 hover:bg-blue-200 disabled:opacity-50 disabled:pointer-events-none dark:hover:bg-blue-900 dark:text-blue-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-            href="/waitlist"
+            href="https://app.anycopy.co/signup"
           >
             Start Your Free Trial
           </a>
@@ -538,7 +538,7 @@ const Pricing = () => {
           </ul>
           <a
             className="mt-5 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-100 text-blue-800 hover:bg-blue-200 disabled:opacity-50 disabled:pointer-events-none dark:hover:bg-blue-900 dark:text-blue-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-            href="/waitlist"
+            href="https://app.anycopy.co/signup"
           >
             Start Your Free Trial
           </a>

@@ -20,10 +20,10 @@ const Modal = () => {
       <div className="mt-8">
         <div className="inline-flex rounded-md shadow">
           <a
-            href="/waitlist"
+            href="https://app.anycopy.co/signup"
             className="inline-flex items-center justify-center w-full px-8 py-4 border border-transparent text-base font-medium rounded-md text-white bg-blue-800 hover:bg-blue-900 sm:w-auto"
           >
-            Join the Waitlist
+            Get Started - It's Free
           </a>
         </div>
       </div>

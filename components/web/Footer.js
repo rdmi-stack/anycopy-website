@@ -19,7 +19,7 @@ const Modal = () => {
         <Link href="/">
   <a className="flex items-center text-xl font-semibold text-white dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" aria-label="Brand">
     <img src="/images/anylogo.jpg" alt="AnyCopy" className="logo" width={40} height={40} /> {/* Adjust width/height as needed */}
-    AnyCopy <span className="beta-chip text-white">BETA</span>
+    AnyCopy 
   </a>
 </Link>
 
