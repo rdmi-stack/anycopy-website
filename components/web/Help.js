@@ -11,11 +11,10 @@ const Modal = () => {
     <div className="bg-blue-600">
     <div className="max-w-3xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
       <h2 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
-        Be the First to Experience Our Game-Changing AI Content Platform
+      Stop wasting time and money on content and copywriting
       </h2>
       <p className="mt-4 text-lg leading-6 text-blue-200">
-        Join our waitlist today and be among the first to try AnyCopy when it
-        launches.
+        Start Your Free Trial today and Create Content At Scale in Seconds
       </p>
       <div className="mt-8">
         <div className="inline-flex rounded-md shadow">
