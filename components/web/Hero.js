@@ -50,7 +50,7 @@ const HeroSection = () => {
           <div className="flex flex-col md:flex-row md:items-start">
             <div>
               <a href="https://app.anycopy.co/signup" className="inline-block bg-gray-900 text-white text-lg md:text-xl font-semibold py-4 px-8 rounded-md hover:bg-gray-800 transition-colors">
-                Start Your Free
+              Get Started - It's Free
               </a>
 
               <div className="mt-4 md:mt-0 md:ml-4 flex justify-center w-full">
