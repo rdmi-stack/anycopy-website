@@ -20,7 +20,7 @@ const Careers = () => {
         {/* Title */}
         <div className="max-w-3xl text-center mx-auto">
           <h1 className="block font-medium text-gray-200 text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-Anycopy BLOG          </h1>
+BLOG          </h1>
         </div>
         {/* End Title */}
         <div className="max-w-3xl text-center mx-auto">
