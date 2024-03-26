@@ -20,13 +20,12 @@ const Careers = () => {
         {/* Title */}
         <div className="max-w-3xl text-center mx-auto">
           <h1 className="block font-medium text-gray-200 text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-The BLOG          </h1>
+Anycopy BLOG          </h1>
         </div>
         {/* End Title */}
         <div className="max-w-3xl text-center mx-auto">
           <p className="text-lg text-gray-400">
-            Preline is a large open-source project, crafted with Tailwind CSS
-            framework by Hmlstream.
+           
           </p>
         </div>
         {/* Buttons */}
