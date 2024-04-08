@@ -2,9 +2,23 @@
 
 import React from "react";
 import Navbar from "../../components/web/NavigationBar"; // NavigationBar component
+import Head from "next/head"; // Import Head from Next.js
+
 const BlogPost = () => {
   return (
     <>
+      <Head>
+        {/* Set meta title */}
+        <title>
+          Optimizing Marketing Strategies: A Data-Driven Analysis of
+          AI-Generated Copy Performance
+        </title>
+        {/* Set meta description */}
+        <meta
+          name="description"
+          content="Discover the potential benefits and challenges associated with AI-generated copy in marketing campaigns. Explore key insights and metrics from a data-driven analysis of AI-powered content, and learn how marketers can leverage AI technologies effectively to enhance campaign performance."
+        />
+      </Head>
       <Navbar />
 
       {/* Blog Article */}
