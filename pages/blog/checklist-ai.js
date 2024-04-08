@@ -1,9 +1,22 @@
 import React from "react";
 import Navbar from "../../components/web/NavigationBar"; // NavigationBar component
+import Head from "next/head"; // Import Head from Next.js
 
 const BlogPost = () => {
   return (
     <>
+      <Head>
+        {/* Set meta title */}
+        <title>
+          The Ultimate Checklist: Preparing Your Sales Team for AI-Generated
+          Pitching | Blog Post
+        </title>
+        {/* Set meta description */}
+        <meta
+          name="description"
+          content="Discover the ultimate checklist for preparing your sales team for AI-generated pitching. Learn how to leverage AI tools effectively, personalize pitches, monitor performance, and foster collaboration for success."
+        />
+      </Head>
       <Navbar />
 
       {/* Blog Article */}
