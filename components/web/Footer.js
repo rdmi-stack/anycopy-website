@@ -154,7 +154,7 @@ const Modal = () => {
             </a>
             <a
               className="w-10 h-10 flex justify-center items-center text-white rounded-full bg-gray-700 hover:bg-gray-600 focus:outline-none focus:ring focus:ring-gray-600"
-              href=""
+              href="https://www.instagram.com/anycopyai"
             >
               <FontAwesomeIcon icon={faInstagram} size="lg" />
             </a>
