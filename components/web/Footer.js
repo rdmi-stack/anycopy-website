@@ -136,25 +136,25 @@ const Modal = () => {
           <div className="flex gap-4 items-center py-4">
             <a
               className="w-10 h-10 flex justify-center items-center text-white rounded-full bg-gray-700 hover:bg-gray-600 focus:outline-none focus:ring focus:ring-gray-600"
-              href="#"
+              href="https://www.facebook.com/anycopyai"
             >
               <FontAwesomeIcon icon={faFacebook} size="lg" />
             </a>
             <a
               className="w-10 h-10 flex justify-center items-center text-white rounded-full bg-gray-700 hover:bg-gray-600 focus:outline-none focus:ring focus:ring-gray-600"
-              href="#"
+              href="https://linkedin.com/company/anycopyai"
             >
               <FontAwesomeIcon icon={faLinkedin} size="lg" />
             </a>
             <a
               className="w-10 h-10 flex justify-center items-center text-white rounded-full bg-gray-700 hover:bg-gray-600 focus:outline-none focus:ring focus:ring-gray-600"
-              href="#"
+              href="https://twitter.com/anycopyai"
             >
               <FontAwesomeIcon icon={faTimes} size="lg" />
             </a>
             <a
               className="w-10 h-10 flex justify-center items-center text-white rounded-full bg-gray-700 hover:bg-gray-600 focus:outline-none focus:ring focus:ring-gray-600"
-              href="#"
+              href=""
             >
               <FontAwesomeIcon icon={faInstagram} size="lg" />
             </a>
