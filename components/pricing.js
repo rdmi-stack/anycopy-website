@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 const Pricing = () => {
   const [isMonthly, setIsMonthly] = useState(true); // State to track monthly/yearly
-  // ... other component code
 
   const togglePricing = () => {
     setIsMonthly(!isMonthly);

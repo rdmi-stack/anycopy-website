@@ -17,7 +17,9 @@ const Modal = () => {
   };
 
   return (
-    <footer className="bg-black w-full">
+    <footer className="bg-[#191919] w-full">
+      {" "}
+      {/* Changed bg-black to bg-[#191919] */}
       <div className="w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 lg:pt-20 mx-auto">
         {/* Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
@@ -148,10 +150,21 @@ const Modal = () => {
             </a>
             <a
               className="w-10 h-10 flex justify-center items-center text-white rounded-full bg-gray-700 hover:bg-gray-600 focus:outline-none focus:ring focus:ring-gray-600"
-              href="https://twitter.com/anycopyai"
+              href="https://x.com/anycopyai"
+              style={{ overflow: "hidden", position: "relative" }} // Corrected comment format
             >
-              <FontAwesomeIcon icon={faTimes} size="lg" />
+              <img
+                src="/xlogo.png"
+                alt="X Logo"
+                style={{
+                  width: "auto",
+                  height: "80%",
+                  maxWidth: "80%",
+                  objectFit: "contain",
+                }}
+              />
             </a>
+
             <a
               className="w-10 h-10 flex justify-center items-center text-white rounded-full bg-gray-700 hover:bg-gray-600 focus:outline-none focus:ring focus:ring-gray-600"
               href="https://www.instagram.com/anycopyai"
