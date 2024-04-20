@@ -8,7 +8,7 @@ const HeroSection = () => {
           <div className="md:w-1/2 mb-10 md:mb-0 md:mr-8 text-center md:text-left">
             <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6 leading-tight">
               {" "}
-              Create Marketing Copy At Scale With{" "}
+              Writer Smarter, Not Harder With{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-blue-500 to-indigo-600">
                 {" "}
                 Generative AI{" "}
@@ -16,8 +16,11 @@ const HeroSection = () => {
             </h1>{" "}
             <p className="text-lg text-gray-700 mb-8">
               {" "}
-              Write smarter, not harder with AI. Generate copy in seconds for
-              websites, ads, emails, and more{" "}
+              Streamline your writing with our AI Writer, equipped with a rich
+              library of over 50 templates designed for blogs, ads, and emails.
+              Effortlessly integrate our versatile, multi-model AI chat using
+              our intuitive Chrome extension and desktop app, optimizing your
+              productivity and creativity seamlessly.{" "}
             </p>{" "}
             <div className="flex flex-col md:flex-row md:items-start">
               {" "}
